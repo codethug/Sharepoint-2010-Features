@@ -42,7 +42,7 @@ namespace LC.ReadWriteSecurity
             }
             base.List.Update();
 
-            SPUtility.Redirect(base.ListEditPageLayoutsRelativeUrl, SPRedirectFlags.RelativeToLayoutsPage, this.Context);
+            SPUtility.Redirect(base.List.DefaultViewUrl, SPRedirectFlags.Default, this.Context);
         }
 
         protected override void OnLoad(EventArgs e)
