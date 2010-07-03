@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="E0CDE1DA-A8D2-4BD5-A7E1-9BAEB4329336"
+          Title="Read/Write Security"
+          Description="This allows a list administrator to set the permsissions on a list so that users can only read / edit items they have created.  This setting is superfluous for regular lists, but without this feature the setting is hidden from Document Libraries.  This only applies to users that do not have 'Manage Lists' permission."
+          Version="12.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/"
+          ReceiverAssembly="LC.ReadWriteSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e28d9bb7b80d4e13"
+          >
+    <ElementManifests>
+        <ElementManifest Location="elements.xml"/>
+    </ElementManifests>
+</Feature>

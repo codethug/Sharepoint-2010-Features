@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+
+    <!-- Add a page to the Site Settings so we can configure the control -->
+    <!-- Available GroupIDs can be seen here: http://www.sharepointnutsandbolts.com/2007/07/using-customaction-to-modify-system.html-->
+    <CustomAction
+        Id="LC.ReadWriteSecurity"
+        Description="Turn on and off the 'only my own' permission setting"
+        Title="Read/Write Security"
+        RequireSiteAdministrator="TRUE"        
+        Sequence="2000"        
+        ImageUrl="/_layouts/images/MenuListSettings.gif"
+        GroupId="SettingsMenu"
+        Location="Microsoft.SharePoint.StandardMenu"
+        >
+        <UrlAction Url="~site/_layouts/LC.ReadWriteSecurity/advsetng.aspx?List={ListId}"/>
+    </CustomAction>
+    
+</Elements>
