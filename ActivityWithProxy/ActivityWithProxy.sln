@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyActivity", "MyActivity\MyActivity.csproj", "{F9367826-3317-49D3-B15A-E714B5B39A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySandboxProxy", "MySandboxProxy\MySandboxProxy.csproj", "{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs08
+		SccProjectUniqueName0 = MyActivity\\MyActivity.csproj
+		SccProjectName0 = MyActivity
+		SccLocalPath0 = MyActivity
+		SccProjectUniqueName1 = MySandboxProxy\\MySandboxProxy.csproj
+		SccProjectName1 = MySandboxProxy
+		SccLocalPath1 = MySandboxProxy
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9367826-3317-49D3-B15A-E714B5B39A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9367826-3317-49D3-B15A-E714B5B39A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9367826-3317-49D3-B15A-E714B5B39A49}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9367826-3317-49D3-B15A-E714B5B39A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9367826-3317-49D3-B15A-E714B5B39A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9367826-3317-49D3-B15A-E714B5B39A49}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AC646E-06E1-4D2B-84F0-CFEA113A4B87}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

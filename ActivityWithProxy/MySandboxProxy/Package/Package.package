@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8abd7ab5-663b-434d-9248-0bd7fe7200e0" solutionId="8abd7ab5-663b-434d-9248-0bd7fe7200e0" resetWebServer="false" name="MySandboxProxy" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a4776516-1983-43ef-9493-b8a994c48016" />
+  </features>
+</package>

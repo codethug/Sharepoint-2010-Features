@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <WorkflowActions>
+    <Action
+      Name="Do My Custom Activity"
+      Category="Custom"
+      Assembly="MyActivity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=263abdd79d4ec6f8"
+      ClassName="MyActivity.Activities"
+      FunctionName="DoSomething"
+      AppliesTo="all"
+      UsesCurrentItem="true"
+      SandboxedFunction="true">
+      <RuleDesigner Sentence="Find Field %1 and do something with it related to %2">
+        <FieldBind DesignerType="FieldNames" Id="1" Text="Field with File List" Field="FieldName" />
+        <FieldBind DesignerType="StringBuilder" Id="2" Text="Extra String" Field="ExtraString" />
+      </RuleDesigner>
+      <Parameters>
+        <Parameter Name="FieldName" Type="System.String, mscorlib" Direction="In" DesignerType="FieldNames" Description="The field with our data in it" />
+        <Parameter Name="ExtraString" Type="System.String, mscorlib" Direction="In" DesignerType="StringBuilder" Description="A string that has some more data" />
+        <Parameter Name="__Context" Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext, Microsoft.SharePoint.WorkflowActions" Direction="In" DesignerType="Hide" />
+      </Parameters>
+    </Action>
+  </WorkflowActions>
+</Elements>
