@@ -22,10 +22,19 @@ To use this,
 `stsadm -o deploysolution -name ReadWriteSecurity.wsp -url https://www.companywebsite.com -local -allowGacDeployment`
 
 3. Activate the feature on the site collection. To do this, navigate to the site where you want to use it. Click 'Site Actions' - 'Site Settings' - 'Modify All Site Settings.' Look under 'Site Collection Administration.' If it says 'Go to top level site settings', click on that link. Then click on 'Site Collection Features' under 'Site Collection Administration'.
+
+![Activate Feature](doc/images/3-SCAdmin.png)
+
 You should see 'Read/Write Security' listed as a feature. Click the 'Activate' button.
+
+![Activate Feature](doc/images/3-ActivateFeature.png)
 
 4. Open the list by going to 'Site Settings' - 'View all Site Content' and clicking on the list name. If you are an admin on the site, you will see a 'Read/Write Security' option under the 'Settings' drop down. Click on this.
 
-3. Now you should see the 'Only their own' permission for the document library. 
+![Step 4](doc/images/4-SecurityMenu.png)
+
+5. Now you should see the 'Only their own' permission for the document library. 
+
+![Step 5](doc/images/5-SettingsPage.png)
 
 Note that on a standard list (e.g., non-document library), this settings panel is redundant to the setting in the 'Advanced Settings' link for the list.
